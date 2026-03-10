@@ -1,6 +1,6 @@
 # Cybersec Notes — Piotr
 
-Documentation of me cybersec learning path.
+Documentation of my cybersec learning path.
 Actually: TryHackMe Cybersecurity101
 
 ## Platformy
