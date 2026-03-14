@@ -23,19 +23,25 @@ Piping ("|"), Where-Object, Select-Object , Select-String (like grep in linux/un
 -Scripting: Invoke-Command, 
 
 ## Tools and commands
+```Bash
 Get-Command -CommandType "Function"
 Install-Module -Name "PowerShellGet"
 Get-Help New-LocalUser -examples
-
+```
+```Bash
 Set-Location -Path ".\Documents"
 New-Item -Path ".\captain-cabin\captain-wardrobe" -ItemType "Directory"
-
+```
+```Bash
 Get-ChildItem | Sort-Object Length 
 Get-ChildItem | Where-Object -Property "Extension" -eq ".txt"
-
+```
+```Bash
 Get-FileHash -Path
-
+```
 ## What was difficult
+```Bash
 Get-ChildItem | Sort-Object Length -Descending | Select-Object -First 1
 
 Invoke-Command -ComputerName RoyalFortune -ScriptBlock {Get-Service}
+```
