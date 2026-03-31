@@ -1,7 +1,7 @@
 # Hashing basics
 
 **Platform:** TryHackMe  
-**Date:** 2026-03-29
+**Date:** 2026-03-31
 **Diff:** Easy
 
 ## Tools
